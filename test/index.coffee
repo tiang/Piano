@@ -36,6 +36,6 @@ describe 'piano', ->
 
   describe 'Buy you a drink ...', ->
 
-    it 'TPain got nothing on me', ->
+    it 'TPain be autotuned', ->
       assert.deepEqual piano.autotune([0,5]), [0,5]
       assert.deepEqual piano.autotune([0,2,3,4,5,6,13,16]), [0,0,5,5,5,6,0,5]
