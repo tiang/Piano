@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "interval-tree": "latest"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+  }
+}
